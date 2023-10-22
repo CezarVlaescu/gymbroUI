@@ -1,0 +1,42 @@
+#gradient-canvas {
+    width: 200%;
+    height: 970px;
+    transform: rotate(-10deg);
+    position: absolute;
+    top: -600px;
+    left: -50%;
+    z-index: -1;
+    --gradient-color-1: #ef008f;
+    --gradient-color-2: #6ec3f4;
+    --gradient-color-3: #7038ff;
+    --gradient-color-4: #ffba27;
+}
+
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    p {
+        max-width: 480px;
+    }
+
+    .hero-gym-container {
+        height: 628px;
+        align-items: flex-end;
+    }
+
+    .hero-gym {
+        height: 628px;
+        transform: translate(32px, -32px);
+    }
+
+    .button-container {
+        display: flex;
+    }
+
+    .button-container button:nth-of-type(2) {
+        margin: 0 0 0 var(--spacing-md);
+        color: var(--purple-2);
+      }
+}
